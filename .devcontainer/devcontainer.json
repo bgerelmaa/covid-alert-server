@@ -9,7 +9,10 @@
 	},
 
 	"extensions": [
-		"rebornix.Ruby"
+		"rebornix.Ruby",
+		"golang.go",
+		"wingrunr21.vscode-ruby",
+		"hashicorp.terraform"
 	],
 
 	"postCreateCommand": "export PATH=/usr/local/go/bin:$PATH && bundle install && GOBIN=/usr/local/bin go install google.golang.org/protobuf/cmd/protoc-gen-go",

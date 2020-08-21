@@ -37,7 +37,7 @@ func NewAuthenticator() Authenticator {
 			panic("token too short")
 		}
 		if len(parts[1]) > 31 {
-			panic("region too long")
+			panic("province code too long")
 		}
 		authTokens[parts[0]] = parts[1]
 	}
